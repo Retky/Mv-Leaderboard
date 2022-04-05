@@ -1,10 +1,9 @@
 import addScore from './addScore.mjs';
-import {scoreList} from './scoreList.mjs';
+import { scoreList } from './scoreList.mjs';
 
 const scoreForm = document.querySelector('#addScore');
 const scoreName = scoreForm.querySelectorAll('input')[0];
 const scoreVal = scoreForm.querySelectorAll('input')[1];
-const scoreBtn = scoreForm.querySelectorAll('input')[2];
 
 const formBtn = () => {
   scoreForm.addEventListener('submit', (e) => {
@@ -14,7 +13,7 @@ const formBtn = () => {
       scoreList.add(scoreName.value, scoreVal.value);
       scoreName.value = '';
       scoreVal.value = '';
-    };
+    }
   });
 };
 

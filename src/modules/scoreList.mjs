@@ -1,13 +1,14 @@
 class List {
   constructor() {
-      this.list = [];
-  };
+    this.list = [];
+  }
+
   add = (inName, inScore) => {
-    const score = {name: inName, score: inScore}
+    const score = { name: inName, score: inScore };
     this.list.push(score);
   };
-};
+}
 
-let scoreList = new List();
+const scoreList = new List();
 
-export {scoreList};
+export { List, scoreList };
