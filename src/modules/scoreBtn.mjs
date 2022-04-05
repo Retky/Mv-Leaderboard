@@ -12,7 +12,8 @@ const formBtn = () => {
     if (scoreName.value !== '' && scoreVal.value >= 0) {
       addScore(scoreName.value, scoreVal.value);
       scoreList.add(scoreName.value, scoreVal.value);
-      console.log(scoreList);
+      scoreName.value = '';
+      scoreVal.value = '';
     };
   });
 };
