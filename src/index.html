@@ -8,10 +8,10 @@
   <body>
     <h1>Leaderboard</h1>
     <section id="main">
-      <div id="scores">
+      <div>
         <div class="title">
           <h2>Recent Scores</h2>
-          <button type="button" name="refresh">Refresh</button>
+          <button class="baseBtn" type="button" name="refresh">Refresh</button>
         </div>
         <ul id="scoreList">
           <li>Name: 100</li>
@@ -22,9 +22,9 @@
       </div>
       <form id="addScore">
         <h2 class="title">Add your score</h2>
-        <input type="text" name="name" value="" placeholder="Your name">
-        <input type="text" name="score" value="" placeholder="Your score">
-        <input type="button" name="submitScore" value="Submit">
+        <input class="textBox" type="text" name="name" value="" placeholder="Your name" required>
+        <input class="textBox" type="text" name="score" value="" placeholder="Your score" required>
+        <input class="baseBtn" type="button" name="submitScore" value="Submit">
       </form>
     </section>
   </body>

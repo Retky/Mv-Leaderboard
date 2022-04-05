@@ -1,3 +1,64 @@
 body {
-    background-color: bisque;
+  margin: 0;
+  font-family: cursive;
+}
+
+h1 {
+  margin: 20px;
+}
+
+#main {
+  margin: 40px;
+  display: flex;
+  gap: 20px;
+
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  gap: 25px;
+}
+
+.baseBtn {
+  height: 25px;
+  width: 75px;
+  background: none;
+  box-shadow: 2px 2px #000;
+}
+
+.baseBtn:hover {
+  cursor: pointer;
+}
+
+#scoreList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: solid #000 2px;
+}
+
+#scoreList li {
+  background: #ddd;
+  padding: 3px;
+}
+
+#scoreList li:nth-child(odd) {
+  background: #fff;
+}
+
+#addScore {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.textBox {
+  width: 200px;
+  box-sizing: border-box;
+  padding: 5px;
+  border: solid #000 2px;
+  margin-bottom: 25px;
 }
