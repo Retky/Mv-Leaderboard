@@ -1,4 +1,5 @@
-import addScore from './addScore.mjs'
+import addScore from './addScore.mjs';
+import {scoreList} from './scoreList.mjs';
 
 const scoreForm = document.querySelector('#addScore');
 const scoreName = scoreForm.querySelectorAll('input')[0];
@@ -9,8 +10,9 @@ const formBtn = () => {
   scoreForm.addEventListener('submit', (e) => {
     e.preventDefault();
     if (scoreName.value !== '' && scoreVal.value >= 0) {
-      console.log(scoreName.value);
-      addScore(scoreName.value, scoreVal.value)
+      addScore(scoreName.value, scoreVal.value);
+      scoreList.add(scoreName.value, scoreVal.value);
+      console.log(scoreList);
     };
   });
 };
