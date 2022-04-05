@@ -1,5 +1,5 @@
-# WebpackBoilerplate
-Basic HTML, CSS &amp; JavaScript with Webpack
+# Leaderboard
+Leaderboard list app using APIs
 
 ## Built With
 
@@ -41,9 +41,9 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to get in touch with any issues or suggestions.
 
-- 🐛 **Bug reports & issues:** Use [GitHub Issues](https://github.com/Retky/WebpackBoilerplate/issues "Bugs & Issues")
-- 💡 **Suggestions:** Use [Github Discussions](https://github.com/Retky/WebpackBoilerplate/discussions "Suggestions")
-- 🙋‍♀️ **General questions:** Use [Github Discussions](https://github.com/Retky/WebpackBoilerplate/discussions "General Questions")
+- 🐛 **Bug reports & issues:** Use [GitHub Issues](https://github.com/Retky/Mv-Leaderboard/issues "Bugs & Issues")
+- 💡 **Suggestions:** Use [Github Discussions](https://github.com/Retky/Mv-Leaderboard/discussions "Suggestions")
+- 🙋‍♀️ **General questions:** Use [Github Discussions](https://github.com/Retky/Mv-Leaderboard/discussions "General Questions")
 
 ## Show your support
 
