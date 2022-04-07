@@ -1,4 +1,4 @@
-const getScores = () => fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/JV1cLaJ1leCS3Qcmz7ZM/scores/', {
+const getScores = () => fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/DivHrwqeBsngzJdiusf8/scores/', {
   method: 'GET',
   headers: {
     'Content-type': 'application/json; charset=UTF-8',

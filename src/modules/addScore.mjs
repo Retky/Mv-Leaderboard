@@ -1,7 +1,7 @@
 import buildScore from './buildScore.mjs'
 
 const addScore = (name, value) => {
-  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/JV1cLaJ1leCS3Qcmz7ZM/scores/', {
+  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/DivHrwqeBsngzJdiusf8/scores/', {
     method: 'POST',
     body: JSON.stringify({
       user: name,
