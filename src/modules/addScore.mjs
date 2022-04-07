@@ -1,3 +1,5 @@
+import buildScore from './buildScore.mjs'
+
 const addScore = (name, value) => {
   fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/JV1cLaJ1leCS3Qcmz7ZM/scores/', {
     method: 'POST',
@@ -8,6 +10,9 @@ const addScore = (name, value) => {
     headers: {
       'Content-type': 'application/json; charset=UTF-8',
     },
+  })
+  .then(() => {
+    buildScore();
   });
 };
 

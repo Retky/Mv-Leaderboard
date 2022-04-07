@@ -2,6 +2,7 @@ import fetching from './scoreAPI.mjs';
 
 const buildScore = () => {
   const scoreList = document.querySelector('#scoreList');
+  scoreList.innerHTML = '';
   fetching()
     .then((board) => {
       board.forEach((item) => {
