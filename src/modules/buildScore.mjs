@@ -5,6 +5,7 @@ const buildScore = () => {
   scoreList.innerHTML = '';
   fetching()
     .then((board) => {
+      board.sort((a, b) => b.score - a.score);
       board.forEach((item) => {
         const listElement = document.createElement('li');
         listElement.innerHTML = `${item.user} : ${item.score}`;
