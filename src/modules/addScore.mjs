@@ -1,4 +1,4 @@
-import buildScore from './buildScore.mjs'
+import buildScore from './buildScore.mjs';
 
 const addScore = (name, value) => {
   fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/DivHrwqeBsngzJdiusf8/scores/', {
@@ -11,9 +11,9 @@ const addScore = (name, value) => {
       'Content-type': 'application/json; charset=UTF-8',
     },
   })
-  .then(() => {
-    buildScore();
-  });
+    .then(() => {
+      buildScore();
+    });
 };
 
 export default addScore;
