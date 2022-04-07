@@ -41,6 +41,8 @@ h1 {
   margin: 0;
   padding: 0;
   border: solid #000 2px;
+  max-height: 290px;
+  overflow: auto;
 }
 
 #scoreList li {
