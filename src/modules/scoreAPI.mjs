@@ -11,10 +11,10 @@ const fetching = async () => {
   try {
     const board = await getScores();
     const scoreBoard = await board.json();
-    console.log(scoreBoard.result);
-    return scoreBoard.result
+    return scoreBoard.result;
   } catch (err) {
     console.log(err);
+    return { result: []};
   }
 }
 
