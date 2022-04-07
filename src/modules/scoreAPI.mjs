@@ -11,7 +11,6 @@ const fetching = async () => {
     const scoreBoard = await board.json();
     return scoreBoard.result;
   } catch (err) {
-    console.log(err);
     return { result: [] };
   }
 };
