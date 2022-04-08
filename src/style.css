@@ -3,9 +3,12 @@ body {
   font-family: cursive;
   background: #2a2b2a;
   color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
+  text-align: center;
   margin: 20px;
 }
 

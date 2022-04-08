@@ -6,21 +6,23 @@
     <title>Leader board</title>
   </head>
   <body>
-    <h1>Leaderboard</h1>
-    <section id="main">
-      <div>
-        <div class="title">
-          <h2>Recent Scores</h2>
-          <button class="baseBtn refresh" type="button" name="refresh">Refresh</button>
+    <section>
+      <h1>Fireworkers Game <br> Leaderboard</h1>
+      <section id="main">
+        <div>
+          <div class="title">
+            <h2>Recent Scores</h2>
+            <button class="baseBtn refresh" type="button" name="refresh">Refresh</button>
+          </div>
+          <ul id="scoreList"></ul>
         </div>
-        <ul id="scoreList"></ul>
-      </div>
-      <form id="addScore">
-        <h2 class="title">Add your score</h2>
-        <input class="textBox" type="text" name="name" value="" placeholder="Your name" required>
-        <input class="textBox" type="number" name="score" value="" placeholder="Your score" required>
-        <input class="baseBtn" type="submit" name="submitScore" value="Submit">
-      </form>
+        <form id="addScore">
+          <h2 class="title">Add your score</h2>
+          <input class="textBox" type="text" name="name" value="" placeholder="Your name" required>
+          <input class="textBox" type="number" name="score" value="" placeholder="Your score" required>
+          <input class="baseBtn" type="submit" name="submitScore" value="Submit">
+        </form>
+      </section>
     </section>
   </body>
 </html>
