@@ -3,6 +3,7 @@ Leaderboard list app using APIs
 
 ## Live Preview
 *Click at the Image*
+
 [![Preview](./src/img/leaderboard.png)](https://retky.github.io/Mv-Leaderboard/)
 ## Built With
 
