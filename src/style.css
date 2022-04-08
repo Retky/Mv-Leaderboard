@@ -70,3 +70,20 @@ h1 {
   border: solid #000 2px;
   margin-bottom: 25px;
 }
+
+@media screen and (max-width: 580px) {
+  #main {
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .textBox {
+    margin-bottom: 5px;
+  }
+}
